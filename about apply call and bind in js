@@ -1,0 +1,12 @@
+function xx(arguments){                 paint_pot(brush){                A way of painting an apple(need a pen)       
+.....                                    .....                        
+this......;                             thing......;                      need a thing like a paper             
+.......;                                ......;           
+}                                         }
+var yy={                                 var something={                   a piece of paper ={   
+"prop":value;                            brush:no.1;                       pen:blue;
+....}                                          }                                }
+xx.apply(yy,[arguments]);               paint_pot.apply(something,[no.1]);     something paint an apple with the way of painting an apple.
+xx.call(yy,argument1,argument2...);     paint_pot.call(something,no.1);      equal with upon but the arguments appears with different way
+var z=xx.bind(yy,arguments);            order=paint_pot.bind(something,no.1);    order can paint an apple at the something but havent done;
+z();                                     order();                                        order paint.
